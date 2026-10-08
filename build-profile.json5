@@ -1,0 +1,36 @@
+{
+  // 鏈粨搴撲笉鍚换浣曠鍚嶆潗鏂欍€傛兂鑷繁鍑哄畨瑁呭寘锛岃鑷閰嶇疆绛惧悕锛?  //   DevEco Studio -> File -> Project Structure -> Signing Configs
+  //   锛堟垨鍙傝€?docs/绛惧悕涓庢墦鍖呮暀绋?md锛?  "app": {
+    "signingConfigs": [],
+    "products": [
+      {
+        "name": "default",
+        "compatibleSdkVersion": "26.0.0",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

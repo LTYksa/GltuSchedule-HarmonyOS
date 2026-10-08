@@ -1,0 +1,33 @@
+# ── hvigor / DevEco 构建产物 ──
+/node_modules
+/oh_modules
+/.idea
+/.hvigor
+/.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.preview
+**/build
+**/.test
+
+# ── 本地配置（含本机 SDK 路径，不要入库）──
+local.properties
+**/local.properties
+
+# ── 签名与密钥（千万别传上去）──
+*.p12
+*.cer
+*.p7b
+*.jks
+*.keystore
+signing.properties
+
+# ── 系统与编辑器 ──
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej

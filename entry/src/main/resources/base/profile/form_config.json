@@ -1,0 +1,52 @@
+{
+  "forms": [
+    {
+      "name": "scheduleCardMedium",
+      "displayName": "$string:widget_medium_name",
+      "description": "$string:widget_description",
+      "src": "./ets/scheduleformability/pages/WidgetCardMedium.ets",
+      "uiSyntax": "arkts",
+      "isDefault": true,
+      "isDynamic": true,
+      "updateEnabled": true,
+      "updateDuration": 2,
+      "defaultDimension": "2*4",
+      "supportDimensions": ["2*4"],
+      "formConfigAbility": "ability://EntryAbility",
+      "fontScaleFollowSystem": false,
+      "resizable": false
+    },
+    {
+      "name": "scheduleCardSmall",
+      "displayName": "$string:widget_small_name",
+      "description": "$string:widget_description",
+      "src": "./ets/scheduleformability/pages/WidgetCardSmall.ets",
+      "uiSyntax": "arkts",
+      "isDefault": false,
+      "isDynamic": true,
+      "updateEnabled": true,
+      "updateDuration": 2,
+      "defaultDimension": "2*2",
+      "supportDimensions": ["2*2"],
+      "formConfigAbility": "ability://EntryAbility",
+      "fontScaleFollowSystem": false,
+      "resizable": false
+    },
+    {
+      "name": "scheduleCardLarge",
+      "displayName": "$string:widget_large_name",
+      "description": "$string:widget_description",
+      "src": "./ets/scheduleformability/pages/WidgetCardLarge.ets",
+      "uiSyntax": "arkts",
+      "isDefault": false,
+      "isDynamic": true,
+      "updateEnabled": true,
+      "updateDuration": 2,
+      "defaultDimension": "4*4",
+      "supportDimensions": ["4*4"],
+      "formConfigAbility": "ability://EntryAbility",
+      "fontScaleFollowSystem": false,
+      "resizable": false
+    }
+  ]
+}

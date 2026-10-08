@@ -1,0 +1,68 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "GLTU 课表主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "桂林旅游学院课程表"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "GLTU 课表"
+    },
+    {
+      "name": "reason_internet",
+      "value": "登录学校教务系统导入课表、同步节假日数据"
+    },
+    {
+      "name": "reason_network_info",
+      "value": "同步前判断网络状态，避免无网络时空等超时"
+    },
+    {
+      "name": "reason_notification",
+      "value": "上课前发送提醒通知"
+    },
+    {
+      "name": "reason_read_pasteboard",
+      "value": "读取剪贴板里的课表分享码，用于导入同学分享的课表"
+    },
+    {
+      "name": "reason_publish_reminder",
+      "value": "在上课前发送课程提醒通知"
+    },
+    {
+      "name": "widget_description",
+      "value": "在桌面查看今日与本周课程"
+    },
+    {
+      "name": "widget_medium_name",
+      "value": "今日课程"
+    },
+    {
+      "name": "widget_small_name",
+      "value": "今日课程 · 小"
+    },
+    {
+      "name": "widget_large_name",
+      "value": "今日课程 · 大"
+    },
+    {
+      "name": "EntryFormAbility_label",
+      "value": "今日课程卡片"
+    },
+    {
+      "name": "EntryFormAbility_desc",
+      "value": "在桌面查看今天的课程"
+    },
+    {
+      "name": "reason_read_calendar",
+      "value": "同步课表前清理上一次写入的系统日历条目"
+    },
+    {
+      "name": "reason_write_calendar",
+      "value": "把课程表写入系统日历，可在日历应用里查看"
+    }
+  ]
+}
